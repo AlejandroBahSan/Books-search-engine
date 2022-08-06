@@ -1,4 +1,4 @@
-# PWA Text Editor
+# Book Search Engine
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://choosealicense.com/licenses/mit/)
 
 ## Usage:
@@ -29,7 +29,7 @@ After this you can start using the app on `localhost:3001`
 
 #### To only test the app ↓
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://pwa-text-editing.herokuapp.com/)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://peaceful-taiga-25273.herokuapp.com/)
 
   
 ## Code Snippets
