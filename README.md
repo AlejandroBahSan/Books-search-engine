@@ -16,16 +16,16 @@ A single-page application that meets the PWA criteria. Additionally, it will fea
 
  ## Prerequisites
  * [![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)](https://expressjs.com/)
- * [![Webpack](https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black)](https://webpack.js.org/)
+ * [![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
   
   ### Installation:
   ### You must install the following for this app to function:
-  #### To use this application, you will need to first clone this repository then once it is in cloned in your computer and you've open it in your source-code editor you will need to proceed to run the following commands
+  ##### To use this application, you will need to first clone this repository and stablish connection with MongoDB then once it is in cloned in your computer and you've open it in your source-code editor you will need to proceed to run the following commands
 ```
-npm run start:dev - this will install our dependencies, run the server localhost:3001 and create or 'dist' files
+npm run start - this will install our dependencies, run the server localhost:3001 and build react files
 ```
 
-After this you can start using the app on `localhost:3001`
+After this you can start using the app.
 
 #### To only test the app ↓
 
@@ -35,20 +35,20 @@ After this you can start using the app on `localhost:3001`
 ## Code Snippets
 
  <p float="center">
-  <img align="center" src="https://github.com/AlejandroBahSan/PWA-Text-Editor/blob/master/Assets/install.png" width="400" height="550" />
-  <img align="right"  src="https://github.com/AlejandroBahSan/PWA-Text-Editor/blob/master/Assets/database.png" width="400" height="550" />
+  <img align="center" src="https://github.com/AlejandroBahSan/BookSearch-Engine/blob/master/Assets/app-snapshot.png" width="400" height="auto" />
+  <img align="right" src="https://github.com/AlejandroBahSan/BookSearch-Engine/blob/master/Assets/mutation-snapshot.png" width="400" height="670" />
+  
  </p>
  
  <p float="center">
-  <img align="center" src="https://github.com/AlejandroBahSan/PWA-Text-Editor/blob/master/Assets/webpack.png" width="400" height="550" />
-  <img align="right"  src="https://github.com/AlejandroBahSan/PWA-Text-Editor/blob/master/Assets/webpack2.png" width="400" height="550" />
+  <img align="center"  src="https://github.com/AlejandroBahSan/BookSearch-Engine/blob/master/Assets/queries-snapshot.png" width="400" height="auto" />
  </p>
 
 <p>
  
 ## Quick Demo
  #### [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://pwa-text-editing.herokuapp.com/)
- ![Demo](https://github.com/AlejandroBahSan/PWA-Text-Editor/blob/master/Assets/Demo2.gif)
+ ![Demo](https://github.com/AlejandroBahSan/BookSearch-Engine/blob/master/Assets/BookSearchDemo.gif)
 
  
   ## Project License:
@@ -76,34 +76,26 @@ After this you can start using the app on `localhost:3001`
   ## Collaborators:
   #### Alejandro Bahena.
   ## Tools:
-  ### ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![Webpack](https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black)
+  ### ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![Apollo-GraphQL](https://img.shields.io/badge/-ApolloGraphQL-311C87?style=for-the-badge&logo=apollo-graphql)
  ## Built with:
 * [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 * [NodeJS](https://nodejs.org/)
+* [Apollo-GraphQL](https://img.shields.io/badge/-ApolloGraphQL-311C87?style=for-the-badge&logo=apollo-graphql)
  
  * Dependencies:
   ```
-    "devDependencies": {
-    "@babel/core": "^7.15.0",
-    "@babel/plugin-transform-runtime": "^7.15.0",
-    "@babel/preset-env": "^7.15.0",
-    "@babel/runtime": "^7.15.3",
-    "babel-loader": "^8.2.2",
-    "css-loader": "^6.2.0",
-    "html-webpack-plugin": "^5.3.2",
-    "http-server": "^0.11.1",
-    "mini-css-extract-plugin": "^2.6.1",
-    "style-loader": "^3.2.1",
-    "webpack": "^5.51.1",
-    "webpack-cli": "^4.8.0",
-    "webpack-dev-server": "^4.0.0",
-    "webpack-pwa-manifest": "^4.3.0",
-    "workbox-webpack-plugin": "^6.2.4"
-  },
   "dependencies": {
-    "code-mirror-themes": "^1.0.0",
-    "copy-webpack-plugin": "^11.0.0",
-    "idb": "^6.1.2"
+    "@apollo/client": "^3.6.9",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "bootstrap": "^4.4.1",
+    "jwt-decode": "^2.2.0",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.0.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^6.2.1",
+    "react-scripts": "^4.0.2"
   }
   ```
  
