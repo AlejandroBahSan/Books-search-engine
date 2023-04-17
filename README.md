@@ -30,7 +30,7 @@ After this you can start using the app.
 
 #### To only test the app ↓
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://peaceful-taiga-25273.herokuapp.com/)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://random-book-search-engine.herokuapp.com/)
 
   
 ## Code Snippets
@@ -48,7 +48,7 @@ After this you can start using the app.
 <p>
  
 ## Quick Demo
- #### [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://pwa-text-editing.herokuapp.com/)
+ #### [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://random-book-search-engine.herokuapp.com/)
  ![Demo](https://github.com/AlejandroBahSan/BookSearch-Engine/blob/master/Assets/BookSearchDemo.gif)
 
  
